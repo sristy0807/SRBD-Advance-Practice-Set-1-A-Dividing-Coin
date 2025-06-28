@@ -9,7 +9,6 @@ int main() {
 	    sum = 0;
 	    int numberOfItems;
 	    std::cin >> numberOfItems;
-	    std::cout << std::endl;
 	    for (int j=0;j<numberOfItems;j++){
 	        cin>>items[j];
 	        sum+=items[j];
@@ -38,7 +37,7 @@ int main() {
 	    }
 
 	    int ans = sum-(2*bestCount);
-	    cout<<ans;
+	    cout<<ans<<endl;
 	}
 
 }
